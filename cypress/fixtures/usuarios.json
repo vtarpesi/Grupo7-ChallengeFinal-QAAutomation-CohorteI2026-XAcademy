@@ -1,0 +1,95 @@
+{
+  "usuarios": {
+    "completoValido": {
+      "name": "Carlos Andrés Mendoza",
+      "email": "c.mendoza@empresasoluciones.com",
+      "phone": "35125678901",
+      "subject": "Cotización de servicios empresariales",
+      "message": "Estamos buscando un proveedor para nuestros servicios de consultoría. ¿Podrían enviarme una cotización detallada para 50 usuarios? Necesito conocer los tiempos de implementación y los costos de mantenimiento mensual."
+    },
+    "minimoValido": {
+      "name": "Luz Dary Ríos",
+      "email": "luzrios@hotmail.com",
+      "phone": "31145678901",
+      "subject": "Información básica",
+      "message": "Solo quiero saber si tienen atención presencial. ¿En qué horarios atienden al público?"
+    },
+    "maximoValido": {
+      "name": "María Fernanda González Pérez",
+      "email": "mariafernanda.gonzalez.perez@consultorainternacional.com",
+      "phone": "123456789012345678901",
+      "subject": "Solicitud de información detallada sobre el programa de certificación internacional en gestión de proyectos",
+      "message": "Estimados, me dirijo a ustedes para solicitar información completa sobre el programa de certificación internacional en gestión de proyectos que ofrecen. Estoy especialmente interesada en conocer el temario detallado, la duración del programa, los requisitos de ingreso, las modalidades de estudio (presencial, virtual o híbrida), los costos totales incluyendo materiales y examenes, las fechas de inicio de las próximas cohortes, y si cuentan con convenios o descuentos para grupos corporativos o exalumnos. Adicionalmente, me gustaría saber si el programa otorga créditos académicos reconocidos por alguna universidad o si tiene validez en otros países de la región. He revisado la información en su sitio web pero tengo algunas dudas específicas sobre el proceso de evaluación y los criterios de aprobación. Agradecería mucho si pudieran enviarme también testimonios o casos de éxito de egresados para tener una mejor perspectiva del impacto del programa en el desarrollo profesional. Quedo atenta a su respuesta y quedo a disposición para cualquier consulta adicional que necesiten de mi parte. Muchas gracias por su tiempo y atención."
+    },
+    "phoneInvalido": {
+      "name": "Jorge Eliecer Gaitán",
+      "email": "jorge.gaitan@consultora.com",
+      "phone": "1234567890",
+      "subject": "Consulta sobre precios",
+      "message": "Quisiera conocer los precios de sus servicios de capacitación. ¿Tienen algún paquete para empresas pequeñas?"
+    },
+    "subjectInvalido": {
+      "name": "Ana Milena Gómez",
+      "email": "anamgomez@gmail.com",
+      "phone": "32178901234",
+      "subject": "Hola",
+      "message": "Buen día, quería consultar si todavía tienen disponibilidad para el taller de liderazgo de este mes. Somos un grupo de 15 personas."
+    },
+    "mensajeInvalido": {
+      "name": "Luis Fernando Torres",
+      "email": "luis.torres@empresa.com",
+      "phone": "30156789012",
+      "subject": "Soporte técnico",
+      "message": "Ayuda con el sistem"
+    },
+    "sinEmail": {
+      "name": "Diana Patricia Castro",
+      "email": "",
+      "phone": "31478901234",
+      "subject": "Contacto telefónico",
+      "message": "Prefiero que me contacten por teléfono porque tengo una consulta urgente sobre mi facturación. ¿Podrían llamarme en la mañana?"
+    },
+    "sinPhone": {
+      "name": "Ricardo Alberto Suárez",
+      "email": "ricardo.suarez@proveedores.com",
+      "phone": "",
+      "subject": "Contacto por correo",
+      "message": "Me es más fácil por correo electrónico. Quiero solicitar la renovación de mi membresía y necesito saber si hay algún descuento por pago anticipado."
+    },
+    "camposVacios": {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "subject": "",
+      "message": ""
+    },
+    "sinSubject": {
+      "name": "Héctor Fabio Ramírez",
+      "email": "hector.ramirez@cooperativa.com",
+      "phone": "31245678901",
+      "subject": "",
+      "message": "Necesito actualizar mis datos de contacto en el sistema. He cambiado de número de teléfono y correo electrónico. ¿Pueden ayudarme con el proceso?"
+    },
+    "sinNombre": {
+      "name": "",
+      "email": "luciana@cooperativa.com",
+      "phone": "31245678901",
+      "subject": "Quisiera una respuesta",
+      "message": "Necesito actualizar mis datos de contacto en el sistema. He cambiado de número de teléfono y correo electrónico. ¿Pueden ayudarme con el proceso?"
+    },
+    "caracteresEspeciales": {
+      "name": "José María López-Ñáñez",
+      "email": "jose+test@empresa.com",
+      "phone": "31056789012",
+      "subject": "¡Nuevo proyecto! ¿Cómo empezamos?",
+      "message": "¡Hola! Tenemos un nuevo proyecto y queremos saber cómo empezar con ustedes. ¿Qué pasos debemos seguir? ¿Tienen algún checklist inicial? Espero su respuesta. ¡Gracias!"
+    },
+    "sinMensaje" :{
+      "name": "Juana Martinez",
+      "email": "juanaMartinez@empresa.com",
+      "phone": "22156789012",
+      "subject": "Hola, me ayudan por favor!",
+      "message":""
+    }
+  }
+}
