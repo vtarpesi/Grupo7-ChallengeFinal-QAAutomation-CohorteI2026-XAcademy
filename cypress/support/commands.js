@@ -23,3 +23,21 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (user, pass) => {
+    cy.visit('https://automationintesting.online/admin')
+    cy.get('#username').type(user)
+    cy.get('#password').type(pass)
+    cy.get('#doLogin').click()
+})
+
+Cypress.Commands.add('newRooms', (nroRoom, precio) => {
+    cy.visit('https://automationintesting.online/admin')
+    cy.get('#roomName').type(nroRoom)
+    cy.get('#type').select('Twin')
+    cy.get('#accessible').select('true')
+    cy.get('#roomPrice').type(precio)
+    cy.get('#wifiCheckbox').click()
+    cy.get('#tvCheckbox').click()
+    cy.get('#createRoom').click()
+})
