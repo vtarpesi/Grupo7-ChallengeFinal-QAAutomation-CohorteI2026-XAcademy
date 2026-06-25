@@ -1,4 +1,3 @@
-import { dateHelper } from '../../support/dataHelper';
 
 describe('Booking Module', () => {
     beforeEach(() => {
@@ -7,19 +6,19 @@ describe('Booking Module', () => {
 
     it('should allow searching for room availability when valid date ranges are entered', () => {
 
-        const checkIn = dateHelper.getFormatedToday();
-        const checkOut = dateHelper.getFormatedFutureDate(5);
-        cy.get('.react-datepicker__input-container input')
-            .eq(0)
-            .clear()
-            .type(`${checkIn}{enter}`);
-        cy.get('.react-datepicker__input-container input')
-            .eq(1)
-            .clear()
-            .type(`${checkOut}{enter}`);
-        cy.get('button').contains('Check Availability').click();
-
+        cy.searchAvailability();
         cy.get('h2').should('contain.text', 'Our Rooms');
         cy.get('p.lead.text-muted').should('contain.text', 'Comfortable beds and delightful breakfast from locally sourced ingredients');
     });
+
+    it('should redirect to the booking page when Book Now button is clicked', () => {
+        cy.searchAvailability();
+        cy.get('h2').should('contain.text', 'Our Rooms');
+        cy.get('p.lead.text-muted').should('contain.text', 'Comfortable beds and delightful breakfast from locally sourced ingredients');
+        cy.get('.btn').contains('Book now').first().click();
+        cy.url().should('include', '/reservation');
+        
+    });
+    
+
 });
